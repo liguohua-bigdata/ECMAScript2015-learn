@@ -148,4 +148,35 @@ console.log("**************005");
   console.info(_r3); /// "Hello World"
 }
 
+/**
+ *模板字符串甚至还能嵌套。
+ */
+console.log("**************006");
+{
+  var tmpl = function tmpl(addrs) {
+    return "\n      <table>\n      " + addrs.map(function (addr) {
+      return "\n        <tr><td>" + addr.first + "</td></tr>\n        <tr><td>" + addr.last + "</td></tr>\n      ";
+    }).join('') + "\n      </table>\n    ";
+  };
+  var data = [{ first: '<Jane>', last: 'Bond' }, { first: 'Lars', last: '<Croft>' }];
+
+  console.info(tmpl(data));
+}
+/**
+ * 一般用不到!!
+ *如果需要引用模板字符串本身，在需要时执行，可以像下面这样写。
+ */
+console.log("**************007");
+{
+  // 写法一
+  var str = 'return ' + '`Hello ${name}!`';
+  var func = new Function('name', str);
+  console.info(func('Jack')); // "Hello Jack!"
+
+  // 写法二
+  var str0 = '(name) => `Hello ${name}!`';
+  var func0 = eval.call(null, str0);
+  console.info(func0('Jack')); // "Hello Jack!"
+}
+
 //# sourceMappingURL=模板字符串.010-compiled.js.map
