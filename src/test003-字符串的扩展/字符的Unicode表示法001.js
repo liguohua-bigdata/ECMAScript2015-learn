@@ -24,13 +24,22 @@ console.log("**************002");
 console.log("**************003");
 {
     console.info("\u{20BB7}");// "𠮷"
+
+    console.info("\u{41}\u{42}\u{43}");// "ABC"
+
+    //大括号表示法与四字节的UTF-16编码是等价的
+    console.info('\u{1F680}' === '\uD83D\uDE80');// true
 }
 /**
- *
+ *JavaScript共有6种方法可以表示一个字符。
  */
-console.log("**************001");
+console.log("**************004");
 {
-
+    console.info('\z' === 'z') // true
+    console.info('\172' === 'z'); // true
+    console.info('\x7A' === 'z'); // true
+    console.info('\u007A' === 'z'); // true
+    console.info('\u{7A}' === 'z');  // true
 }
 /**
  *
