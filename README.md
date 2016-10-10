@@ -5,7 +5,7 @@ http://es6.ruanyifeng.com
 ####2. 本书的github地址为
 https://github.com/ruanyf/es6tutorial
 ####3. 出版物为
-<<ECMAScript 6入门>>
+<ECMAScript 6入门>
 
 
 ##二.本工程用webstorm建立,学习方法如下:
