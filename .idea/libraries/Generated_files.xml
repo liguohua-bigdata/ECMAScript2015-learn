@@ -625,9 +625,9 @@
       <root url="file://$PROJECT_DIR$/node_modules/regexpu/regexpu-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/is-integer/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/src/test001-let和const命令/let001-compiled.js" />
-      <root url="file://$PROJECT_DIR$/src/test003-字符串的扩展/String.raw().011-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test003-字符串的扩展/String.raw().013-compiled.js" />
       <root url="file://$PROJECT_DIR$/src/test003-字符串的扩展/模板编译.011-compiled.js" />
-      <root url="file://$PROJECT_DIR$/src/test003-字符串的扩展/模板字符串.013-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test003-字符串的扩展/模板字符串.011-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/internal/isKey-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/function/partialRight-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/internal/mapGet-compiled.js" />
