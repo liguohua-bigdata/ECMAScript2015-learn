@@ -2,9 +2,12 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/数值和布尔值的解构赋值004-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/escape-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/deburr-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/字符串的解构赋值003-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/padLeft-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/函数参数的解构赋值005-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/repeat-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/trim-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/pad-compiled.js" />
@@ -23,7 +26,6 @@
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/findKey-compiled.js" />
         <item url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/数组的解构赋值001-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/defaults-compiled.js" />
-        <item url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/解构-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/methods-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/keysIn-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/invert-compiled.js" />
@@ -324,8 +326,11 @@
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/kebabCase-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/template-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/endsWith-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/圆括号问题006-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/padRight-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/template-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/unescape-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/用途007-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/parseInt-compiled.js" />
       </sourceFilesUrls>
     </properties>
@@ -336,9 +341,13 @@
       <root url="file://$PROJECT_DIR$/node_modules/.staging/leven-06e8945f/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/.staging/camelcase-f57be5a9/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/解构-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/解构-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/数值和布尔值的解构赋值004-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/escape-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/deburr-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/字符串的解构赋值003-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/padLeft-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/函数参数的解构赋值005-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/repeat-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/trim-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/pad-compiled.js" />
@@ -357,7 +366,6 @@
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/findKey-compiled.js" />
       <root url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/数组的解构赋值001-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/defaults-compiled.js" />
-      <root url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/解构-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/methods-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/keysIn-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/invert-compiled.js" />
@@ -658,8 +666,11 @@
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/kebabCase-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/template-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/endsWith-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/圆括号问题006-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/padRight-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/template-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/unescape-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test002-变量的解构赋值/用途007-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/string/parseInt-compiled.js" />
     </CLASSES>
     <SOURCES />

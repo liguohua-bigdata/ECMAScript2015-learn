@@ -103,86 +103,94 @@ console.log("**************008");
     console.info(y);// "World"
 }
 /**
- *
+ *只有line是变量，loc和start都是模式，不会被赋值。
  */
-console.log("**************001");
+console.log("**************009");
 {
+    var node = {
+        loc: {
+            start: {
+                line: 1,
+                column: 5
+            }
+        }
+    };
 
+    var {loc: {start: {line}}} = node;
+    console.info(line);// 1
+    // console.info(loc);  // error: loc is undefined
+    // console.info(start); // error: start is undefined
 }
 /**
- *
+ *嵌套赋值的例子。
  */
-console.log("**************001");
+console.log("**************010");
 {
+    let obj = {};
+    let arr = [];
 
+    (
+        {
+            foo: obj.prop,
+            bar: arr[0]
+        }
+            =
+        {
+            foo: 123,
+            bar: true
+        }
+    );
+
+    console.info(obj); // {prop:123}
+    console.info(arr);  // [true]
 }
 /**
- *
+ *象的解构也可以指定默认值。
+ * 默认值生效的条件是，对象的属性值严格等于undefined。
  */
-console.log("**************001");
+console.log("**************011");
 {
+    var {x = 3} = {x: undefined};
+    console.info(x);// 3
 
+    var {x = 3} = {x: null};
+    console.info(x);// null
 }
 /**
- *
+ *如果解构失败，变量的值等于undefined。
  */
-console.log("**************001");
+console.log("**************012");
 {
-
+    var {foo} = {bar: 'baz'};
+    console.info(foo); // undefined
 }
 /**
- *
+ *果解构模式是嵌套的对象，而且子对象所在的父属性不存在，那么将会报错。
  */
-console.log("**************001");
+console.log("**************013");
 {
-
+    // 报错
+    // var {foo: {bar}} = {baz: 'baz'};
+    //等号左边对象的foo属性，对应一个子对象。该子对象的bar属性，解构时会报错。原因很简单，因为foo这时等于undefined，再取子属性就会报错
 }
 /**
- *
+ *解构赋值允许，等号左边的模式之中，不放置任何变量名。因此，可以写出非常古怪的赋值表达式。
  */
-console.log("**************001");
+console.log("**************014");
 {
-
+    //上面的表达式虽然毫无意义，但是语法是合法的，可以执行。
+    ({} = [true, false]);
+    ({} = 'abc');
+    ({} = []);
 }
 /**
- *
+ *由于数组本质是特殊的对象，因此可以对数组进行对象属性的解构。
  */
-console.log("**************001");
+console.log("**************015");
 {
-
-}
-/**
- *
- */
-console.log("**************001");
-{
-
-}
-/**
- *
- */
-console.log("**************001");
-{
-
-}
-/**
- *
- */
-console.log("**************001");
-{
-
-}
-/**
- *
- */
-console.log("**************001");
-{
-
-}
-/**
- *
- */
-console.log("**************001");
-{
-
+    //数组arr的0键对应的值是1，[arr.length - 1]就是2键，对应的值是3。方括号这种写法，属于“属性名表达式”
+    var arr = [1, 2, 3];
+    var {0 : first, [arr.length - 1] : last} = arr;
+    console.info(first); // 1
+    console.info(last); // 3
 }
