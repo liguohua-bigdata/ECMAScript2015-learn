@@ -53,25 +53,54 @@ console.log("**************005");
     console.info(foo); // "aaa"
 }
 /**
- *
+ *采用这种写法时，变量的声明和赋值是一体的。
+ * 对于let和const来说，变量不能重新声明，所以一旦赋值的变量以前声明过，就会报错。
+
+
  */
-console.log("**************001");
+console.log("**************006");
 {
+    let foo;
+    // let {foo} = {foo: 1}; // SyntaxError: Duplicate declaration "foo"
+    //
+    // let baz;
+    // let {bar: baz} = {bar: 1}; // SyntaxError: Duplicate declaration "baz"
+}
+/**
+ *let命令下面一行的圆括号是必须的，否则会报错。因为解析器会将起首的大括号，理解成一个代码块，而不是赋值语句。
+ */
+console.log("**************007");
+{
+    let foo;
+    (
+        {foo} = {foo: 1},
+            console.info(foo)//1
+    ); // 成功
+    console.info(foo)//1
+
+    let baz;
+    (
+        {bar: baz} = {bar: 1},
+            console.info(baz)//1
+    ); // 成功
+    console.info(baz)//1
 
 }
 /**
- *
+ *数组一样，解构也可以用于嵌套结构的对象。
  */
-console.log("**************001");
+console.log("**************008");
 {
-
-}
-/**
- *
- */
-console.log("**************001");
-{
-
+    var obj = {
+        p: [
+            'Hello',
+            {y: 'World'}
+        ]
+    };
+    // 这时p是模式，不是变量，因此不会被赋值
+    var {p: [x, {y}]} = obj;
+    console.info(x);// "Hello"
+    console.info(y);// "World"
 }
 /**
  *
