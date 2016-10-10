@@ -22,7 +22,6 @@
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/findKey-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/defaults-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/methods-compiled.js" />
-        <item url="file://$PROJECT_DIR$/src/test001-let/let001-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/keysIn-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/invert-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/result-compiled.js" />
@@ -264,6 +263,7 @@
         <item url="file://$PROJECT_DIR$/node_modules/regexpu/bin/regexpu-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/regexpu/regexpu-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/is-integer/index-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test001-let/let001-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/internal/isKey-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/function/partialRight-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/internal/mapGet-compiled.js" />
@@ -348,7 +348,6 @@
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/findKey-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/defaults-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/methods-compiled.js" />
-      <root url="file://$PROJECT_DIR$/src/test001-let/let001-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/keysIn-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/invert-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/object/result-compiled.js" />
@@ -590,6 +589,7 @@
       <root url="file://$PROJECT_DIR$/node_modules/regexpu/bin/regexpu-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/regexpu/regexpu-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/is-integer/index-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test001-let/let001-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/internal/isKey-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/function/partialRight-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/internal/mapGet-compiled.js" />
