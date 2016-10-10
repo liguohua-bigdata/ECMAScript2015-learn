@@ -1,0 +1,24 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-eslint": "^7.0.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-register": "^6.16.3",
+    "babelify": "^7.3.0",
+    "eslint": "^3.7.1"
+  },
+  "scripts": {
+    "lint": "eslint my-files.js",
+    "build": "babel src -d lib",
+    "script-name": "babel-node script.js",
+    "test": "mocha --ui qunit --compilers js:babel-core/register"
+  },
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-polyfill": "^6.16.0"
+  }
+}
