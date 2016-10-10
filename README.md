@@ -2,9 +2,9 @@
 ##一.关于工程的基本信息
 ####1. 本工程所产生的代码来源于如下连接:
 http://es6.ruanyifeng.com
-####2. 本书的github地址为
+####2. 本书的d电子稿件,github地址为
 https://github.com/ruanyf/es6tutorial
-####3. 出版物为
+####3. 本书的出版物为
 [ECMAScript 6入门--阮一峰]
 
 ##二.本工程用webstorm建立,学习方法如下:
