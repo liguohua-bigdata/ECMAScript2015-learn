@@ -1,9 +1,6 @@
 "use strict";
 
 /**
- * Created by liguohua on 16/10/10.
- */
-/**
  *
  */
 console.log("**************001");
