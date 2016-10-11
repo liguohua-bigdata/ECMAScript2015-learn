@@ -146,8 +146,8 @@
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/dotdot-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/zipWith-compiled.js" />
         <item url="file://$PROJECT_DIR$/src/test004-数值的扩展/Math对象的扩展.008-compiled.js" />
-        <item url="file://$PROJECT_DIR$/node_modules/resolve/test/node_path/x/ccc/index-compiled.js" />
         <item url="file://$PROJECT_DIR$/src/test004-数值的扩展/Math对象的扩展.009-compiled.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/resolve/test/node_path/x/ccc/index-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/indexOf-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/node_path/y/ccc/index-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/findIndex-compiled.js" />
@@ -157,6 +157,7 @@
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/compact-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/without_basedir/main-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/flatten-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test005-数组的扩展/Array.from().001-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/node_path/x/aaa/index-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/dropRight-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/filter-compiled.js" />
@@ -507,8 +508,8 @@
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/dotdot-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/zipWith-compiled.js" />
       <root url="file://$PROJECT_DIR$/src/test004-数值的扩展/Math对象的扩展.008-compiled.js" />
-      <root url="file://$PROJECT_DIR$/node_modules/resolve/test/node_path/x/ccc/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/src/test004-数值的扩展/Math对象的扩展.009-compiled.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/resolve/test/node_path/x/ccc/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/indexOf-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/node_path/y/ccc/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/findIndex-compiled.js" />
@@ -518,6 +519,7 @@
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/compact-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/without_basedir/main-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/flatten-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test005-数组的扩展/Array.from().001-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/node_path/x/aaa/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/dropRight-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/filter-compiled.js" />
