@@ -212,6 +212,8 @@
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/isPlainObject-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/lib/node-modules-paths-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/math/max-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test006-函数的扩展/扩展运算符.003.1-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test006-函数的扩展/扩展运算符.003.2-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/bar/node_modules/foo/index-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/tail-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/math/min-compiled.js" />
@@ -583,6 +585,8 @@
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/isPlainObject-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/lib/node-modules-paths-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/math/max-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test006-函数的扩展/扩展运算符.003.1-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test006-函数的扩展/扩展运算符.003.2-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/bar/node_modules/foo/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/tail-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/math/min-compiled.js" />
