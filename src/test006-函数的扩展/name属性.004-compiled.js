@@ -1,0 +1,59 @@
+"use strict";
+
+/**
+ * Created by liguohua on 2016/10/12.
+ */
+
+/**
+ *函数的name属性，返回该函数的函数名。
+ */
+{
+  var foo = function foo() {};
+
+  foo.name; // "foo"
+}
+/**
+ *
+ */
+console.log("**************001");
+{
+  var func1 = function func1() {};
+  // ES5
+  console.info(func1.name); // ""
+  // ES6
+  console.info(func1.name); // "func1"
+}
+/**
+ *如果将一个具名函数赋值给一个变量，则ES5和ES6的name属性都返回这个具名函数原本的名字。
+ */
+{
+  var bar = function baz() {};
+  // ES5
+  bar.name; // "baz"
+  // ES6
+  bar.name; // "baz"
+}
+/**
+ *Function构造函数返回的函数实例，name属性的值为“anonymous”。
+ */
+console.log("**************002");
+{
+  var r = new Function().name;
+  console.info(r); // "anonymous"
+}
+/**
+ *bind返回的函数，name属性值会加上“bound ”前缀。
+ */
+console.log("**************002");
+{
+  var _foo = function _foo() {};
+
+  ;
+  var _r = _foo.bind({}).name;
+  console.info(_r); // "bound foo"
+
+  _r = function () {}.bind({}).name;
+  console.info(_r); // "bound "
+}
+
+//# sourceMappingURL=name属性.004-compiled.js.map

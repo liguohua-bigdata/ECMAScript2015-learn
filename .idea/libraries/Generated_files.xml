@@ -219,10 +219,13 @@
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/math/min-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/mock-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/math/add-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test006-函数的扩展/name属性.004-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/lib/async-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/isUndefined-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/lib/caller-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test006-函数的扩展/箭头函数.005.1-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/isArguments-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test006-函数的扩展/箭头函数.005.2-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/dotdot/abc/index-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/isTypedArray-compiled.js" />
         <item url="file://$PROJECT_DIR$/src/test001-let和const命令/rootobject005-compiled.js" />
@@ -592,10 +595,13 @@
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/math/min-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/mock-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/math/add-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test006-函数的扩展/name属性.004-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/lib/async-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/isUndefined-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/lib/caller-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test006-函数的扩展/箭头函数.005.1-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/isArguments-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test006-函数的扩展/箭头函数.005.2-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/dotdot/abc/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/isTypedArray-compiled.js" />
       <root url="file://$PROJECT_DIR$/src/test001-let和const命令/rootobject005-compiled.js" />
