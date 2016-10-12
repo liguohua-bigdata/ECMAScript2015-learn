@@ -57,7 +57,6 @@ console.log("**************002");
     var sortNumbers1 = function sortNumbers1() {
         return Array.prototype.slice.call(arguments).sort();
     };
-
     // rest参数的写法,rest参数的写法更自然也更简洁。
 
 

@@ -10,14 +10,11 @@ console.log("**************001");
 {
     function add(...values) {
         let sum = 0;
-
         for (var val of values) {
             sum += val;
         }
-
         return sum;
     }
-
     let r = add(2, 5, 3);
     console.info(r);// 10
 }
@@ -30,7 +27,6 @@ console.log("**************002");
     function sortNumbers1() {
         return Array.prototype.slice.call(arguments).sort();
     }
-
     // rest参数的写法,rest参数的写法更自然也更简洁。
     const sortNumbers2 = (...numbers) => numbers.sort();
 
@@ -46,7 +42,6 @@ console.log("**************003");
             console.log(item);
         });
     }
-
     var a = [];
     push(a, 1, 2, 3)
 }
