@@ -116,6 +116,7 @@
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/precedence/aaa/index-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/lastIndexOf-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/subdirs-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test005-数组的扩展/数组实例的includes().007-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/trim-right/index-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/takeRightWhile-compiled.js" />
         <item url="file://$PROJECT_DIR$/src/test004-数值的扩展/二进制和八进制表示法.001-compiled.js" />
@@ -139,6 +140,7 @@
         <item url="file://$PROJECT_DIR$/src/test004-数值的扩展/安全整数和Number.isSafeInteger().006-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/takeWhile-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/module_dir/zmodules/bbb/main-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test005-数组的扩展/数组实例的entries().keys()和values().006-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/takeRight-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/pathfilter/deep_ref/main-compiled.js" />
         <item url="file://$PROJECT_DIR$/src/test004-数值的扩展/Math对象的扩展.007-compiled.js" />
@@ -179,6 +181,7 @@
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/unique-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/rest-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/quux/foo/index-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test005-数组的扩展/数组的空位.007-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/slice-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/zip-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/biz/node_modules/garply/lib/index-compiled.js" />
@@ -482,6 +485,7 @@
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/precedence/aaa/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/lastIndexOf-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/subdirs-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test005-数组的扩展/数组实例的includes().007-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/trim-right/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/takeRightWhile-compiled.js" />
       <root url="file://$PROJECT_DIR$/src/test004-数值的扩展/二进制和八进制表示法.001-compiled.js" />
@@ -505,6 +509,7 @@
       <root url="file://$PROJECT_DIR$/src/test004-数值的扩展/安全整数和Number.isSafeInteger().006-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/takeWhile-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/module_dir/zmodules/bbb/main-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test005-数组的扩展/数组实例的entries().keys()和values().006-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/takeRight-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/pathfilter/deep_ref/main-compiled.js" />
       <root url="file://$PROJECT_DIR$/src/test004-数值的扩展/Math对象的扩展.007-compiled.js" />
@@ -545,6 +550,7 @@
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/unique-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/rest-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/quux/foo/index-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test005-数组的扩展/数组的空位.007-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/slice-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/zip-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/biz/node_modules/garply/lib/index-compiled.js" />
