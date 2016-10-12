@@ -207,10 +207,155 @@ console.log("**************009");
 
         console.log(x, y);
     };
+
     //x参数对应undefined，结果触发了默认值，y参数等于null，就没有触发默认值。
 
 
     _foo2(undefined, null); // 5 null
+}
+
+/**
+ * 函数的length属性
+ * 指定了默认值以后，函数的length属性，将返回没有指定默认值的参数个数。
+ * length属性的含义是，该函数预期传入的参数个数。某个参数指定默认值以后，预期传入的参数个数就不包括这个参数了
+ */
+console.log("**************010");
+
+{
+    var r = function (a) {}.length;
+    console.info(r); // 1
+
+    r = function () {
+        var a = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 5;
+    }.length;
+    console.info(r); // 0
+
+    r = function (a, b) {
+        var c = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 5;
+    }.length;
+    console.info(r); // 2
+}
+/**
+ *rest参数也不会计入length属性。
+ */
+console.log("**************011");
+{
+    var _r = function () {}.length;
+    console.info(_r); // 0
+}
+
+/**
+ * 如果设置了默认值的参数不是尾参数，那么length属性也不再计入后面的参数了。
+ */
+console.log("**************012");
+{
+    var _r2 = function () {
+        var a = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+        var b = arguments[1];
+        var c = arguments[2];
+    }.length;
+    console.info(_r2); // 0
+    _r2 = function (a) {
+        var b = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
+        var c = arguments[2];
+    }.length;
+    console.info(_r2); // 1
+}
+/**
+ * 作用域
+ * 一个需要注意的地方是，如果参数默认值是一个变量，则该变量所处的作用域，
+ * 与其他变量的作用域规则是一样的，即先是当前函数的作用域，然后才是全局作用域。
+ */
+console.log("**************012");
+{
+    var _f2 = function _f2(x) {
+        var y = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : x;
+
+        console.log(y);
+    };
+
+    var x = 1;
+
+    _f2(2); // 2,函数作用域
+
+    console.info(x); //1,全局作用域
+}
+/**
+ * 如果调用时，函数作用域内部的变量x没有生成，结果就会不一样。
+ */
+console.log("**************013");
+{
+    var _f3 = function _f3() {
+        var y = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : x;
+        return function () {
+            var x = 2;
+            console.log(y);
+        }();
+    };
+
+    var _x15 = 1;
+
+    _f3(); // 1 ,全局作用域
+
+    console.info(_x15); //1,全局作用域
+}
+/**
+ * 如果参数的默认值是一个函数，该函数的作用域是其声明时所在的作用域
+ */
+console.log("**************014");
+{
+    var bar = function bar() {
+        var func = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : function (x) {
+            return foo;
+        };
+
+        var foo = 'inner';
+        console.log(func()); // outer
+    };
+
+    var _foo3 = 'outer';
+
+    bar();
+}
+
+/**
+ * 应用一
+ 利用参数默认值，可以指定某一个参数不得省略，如果省略就抛出一个错误。
+ 如果调用的时候没有参数，就会调用默认值throwIfMissing函数，从而抛出一个错误。
+ */
+console.log("**************015");
+{
+    (function () {
+        var throwIfMissing = function throwIfMissing() {
+            throw new Error('Missing parameter');
+        };
+
+        var foo = function foo() {
+            var mustBeProvided = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : throwIfMissing();
+
+            return mustBeProvided;
+        };
+
+        //foo()// Error: Missing parameter
+
+    })();
+}
+
+/**
+ * 应用二
+ *可以将参数默认值设为undefined，表明这个参数是可以省略的。
+ */
+console.log("**************016");
+{
+    var _foo4 = function _foo4() {
+        var optional = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : undefined;
+
+        console.info(optional);
+    };
+
+    _foo4(); //undefined
+
+    _foo4('color:red'); //'color:red'
 }
 
 //# sourceMappingURL=函数参数的默认值.001-compiled.js.map
