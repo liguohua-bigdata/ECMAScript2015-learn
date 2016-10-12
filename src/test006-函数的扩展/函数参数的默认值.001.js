@@ -158,6 +158,6 @@ console.log("**************009");
     function foo(x = 5, y = 6) {
         console.log(x, y);
     }
-
+    //x参数对应undefined，结果触发了默认值，y参数等于null，就没有触发默认值。
     foo(undefined, null)// 5 null
 }
