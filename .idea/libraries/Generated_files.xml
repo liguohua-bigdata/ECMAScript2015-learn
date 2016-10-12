@@ -186,8 +186,8 @@
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/zip-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/biz/node_modules/garply/lib/index-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/uniq-compiled.js" />
-        <item url="file://$PROJECT_DIR$/src/test006-函数的扩展/函数参数的默认值.001-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/xor-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test006-函数的扩展/函数参数的默认值.001-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/foo-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/object-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/head-compiled.js" />
@@ -206,6 +206,7 @@
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/math/round-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/biz/node_modules/tiv/index-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/union-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test006-函数的扩展/rest参数.002-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/math/floor-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/core-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/isPlainObject-compiled.js" />
@@ -556,8 +557,8 @@
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/zip-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/biz/node_modules/garply/lib/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/uniq-compiled.js" />
-      <root url="file://$PROJECT_DIR$/src/test006-函数的扩展/函数参数的默认值.001-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/xor-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test006-函数的扩展/函数参数的默认值.001-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/foo-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/object-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/head-compiled.js" />
@@ -576,6 +577,7 @@
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/math/round-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/biz/node_modules/tiv/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/union-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test006-函数的扩展/rest参数.002-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/math/floor-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/core-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/isPlainObject-compiled.js" />
