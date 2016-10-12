@@ -228,9 +228,11 @@
         <item url="file://$PROJECT_DIR$/src/test006-函数的扩展/箭头函数.005.2-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/dotdot/abc/index-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/isTypedArray-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test006-函数的扩展/foo::bar.006-compiled.js" />
         <item url="file://$PROJECT_DIR$/src/test001-let和const命令/rootobject005-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/dotdot/index-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/toPlainObject-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test006-函数的扩展/尾调用优化.007-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/defined/index-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/isBoolean-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/defined/example/defined-compiled.js" />
@@ -604,9 +606,11 @@
       <root url="file://$PROJECT_DIR$/src/test006-函数的扩展/箭头函数.005.2-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/dotdot/abc/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/isTypedArray-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test006-函数的扩展/foo::bar.006-compiled.js" />
       <root url="file://$PROJECT_DIR$/src/test001-let和const命令/rootobject005-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/dotdot/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/toPlainObject-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test006-函数的扩展/尾调用优化.007-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/defined/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/lang/isBoolean-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/defined/example/defined-compiled.js" />
