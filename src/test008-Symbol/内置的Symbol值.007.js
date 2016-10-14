@@ -109,9 +109,3 @@
     let r = [1, 2].concat(a1).concat(a2)
     console.info(r);// [1, 2, 3, 4, [5, 6]]
 }
-/**
- *
- */
-{
-
-}

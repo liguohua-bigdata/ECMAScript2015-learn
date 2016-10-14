@@ -144,9 +144,5 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _r3 = [1, 2].concat(a1).concat(a2);
     console.info(_r3); // [1, 2, 3, 4, [5, 6]]
 }
-/**
- *
- */
-{}
 
 //# sourceMappingURL=内置的Symbol值.007-compiled.js.map
