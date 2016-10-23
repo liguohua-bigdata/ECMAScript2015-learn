@@ -18,3 +18,6 @@ https://github.com/ruanyf/es6tutorial
 #### 1. 本人在搞大数据和云计算领域,由于架构需要各方面的知识,所以就仔细学习一下Javascrip
 #### 2. 近几年由于node.js的悄然崛起,全栈工程师陡然走俏,扩展Javascrip技术迫在眉睫.
 #### 3. 如有任何问题请联系作者,email:2818461312@qq.com
+
+
+step into proxy 2
