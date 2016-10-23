@@ -155,8 +155,8 @@
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/zip-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/biz/node_modules/garply/lib/index-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/uniq-compiled.js" />
-        <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/xor-compiled.js" />
         <item url="file://$PROJECT_DIR$/src/test006-函数的扩展/函数参数的默认值.001-compiled.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/xor-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/foo-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/object-compiled.js" />
         <item url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/head-compiled.js" />
@@ -387,6 +387,8 @@
         <item url="file://$PROJECT_DIR$/src/test008-Symbol/模块的 Singleton 模式.006-compiled.js" />
         <item url="file://$PROJECT_DIR$/src/test008-Symbol/mod-compiled.js" />
         <item url="file://$PROJECT_DIR$/src/test008-Symbol/内置的Symbol值.007-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test009-proxy/proxy001-compiled.js" />
+        <item url="file://$PROJECT_DIR$/src/test009-proxy/Proxy实例的方法002-compiled.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -553,8 +555,8 @@
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/zip-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/biz/node_modules/garply/lib/index-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/uniq-compiled.js" />
-      <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/xor-compiled.js" />
       <root url="file://$PROJECT_DIR$/src/test006-函数的扩展/函数参数的默认值.001-compiled.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/xor-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/resolve/test/resolver/foo-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/object-compiled.js" />
       <root url="file://$PROJECT_DIR$/node_modules/babel-plugin-proto-to-assign/node_modules/lodash/array/head-compiled.js" />
@@ -787,6 +789,8 @@
       <root url="file://$PROJECT_DIR$/src/test008-Symbol/模块的 Singleton 模式.006-compiled.js" />
       <root url="file://$PROJECT_DIR$/src/test008-Symbol/mod-compiled.js" />
       <root url="file://$PROJECT_DIR$/src/test008-Symbol/内置的Symbol值.007-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test009-proxy/proxy001-compiled.js" />
+      <root url="file://$PROJECT_DIR$/src/test009-proxy/Proxy实例的方法002-compiled.js" />
     </CLASSES>
     <SOURCES />
   </library>
